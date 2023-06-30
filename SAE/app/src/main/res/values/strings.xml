@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btnLengua">Lenguaje</string>
+    <string name="btnMatematica">Matemáticas</string>
+    <string name="btnIngles">Inglés</string>
+    <string name="txtTitulo">SAE</string>
+    <string name="btnSilaba">Sílabas</string>
+    <string name="btnDiptongo">Diptongo</string>
+    <string name="btnTablasMultiplicar">Tablas de Multiplicar</string>
+    <string name="btnRepaso">Repaso</string>
+    <string name="btnVocabulario">Vocabulario</string>
+    <string name="btnMenuPrincipal">Menú Principal</string>
+    <string name="btnCalificar">Calificar</string>
+    <string name="btnResolver">Resolver</string>
+    <string name="btnNuevo">Nuevo</string>
+    <string name="btnVerConcepto">Ver Concepto</string>
+    <string name="btnIdentificarDiptongo">Identificar Diptongo</string>
+    <string name="lblTablasMultiplicar">Tablas de Multiplicar</string>
+    <string name="btnAnterior">Anterior</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="txtResultado">Ingresar Resultado</string>
+
+</resources>

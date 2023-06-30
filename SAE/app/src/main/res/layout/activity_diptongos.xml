@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.concurso.myapplication.Diptongos_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDiptongo"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDiptongo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/lblConcepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnVerConcepto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVerConcepto"
+        android:background="@color/colorBotones"
+        android:drawableLeft="@drawable/img_lengua"
+        android:layout_marginTop="10dp"
+        android:onClick="abrirConcepto"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnIdentificarDiptongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIdentificarDiptongo"
+        android:background="@color/colorBotones"
+        android:drawableLeft="@drawable/img_lengua"
+        android:onClick="abriDiptongo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnMenuPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMenuPrincipal"
+        android:background="@color/colorBotones"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/img_regreso"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:onClick="regresoMenuPrincipal"
+        />
+
+</LinearLayout>

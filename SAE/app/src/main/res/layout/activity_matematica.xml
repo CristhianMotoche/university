@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.concurso.myapplication.Matematica_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMatematica"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnTablas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTablasMultiplicar"
+        android:gravity="center"
+        android:background="@color/colorBotones"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/img_lengua"
+        android:padding="10dp"
+        android:onClick="abrirTablas"
+        />
+
+    <Button
+        android:id="@+id/btnRepaso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRepaso"
+        android:gravity="center"
+        android:background="@color/colorBotones"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/img_matematica"
+        android:padding="10dp"
+        android:onClick="abrirRepaso"
+        />
+
+    <Button
+        android:id="@+id/btnMenuPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMenuPrincipal"
+        android:background="@color/colorBotones"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/img_regreso"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:onClick="regresoMenuPrincipal"
+        />
+
+</LinearLayout>
