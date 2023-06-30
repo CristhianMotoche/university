@@ -1,0 +1,11 @@
+<div class="card yghcard">
+  <h2 style="text-align: center">{{ card.name }}</h2>
+<!--  <img class="img-responsive movieposter" [src]="movie.poster" alt="NO IMAGE FOUND">-->
+  <h3><strong>Price:</strong></h3> <p>{{ card.price }}</p>
+  <h3><strong>Price Shift:</strong></h3> <p>{{ card.price_shift }} <img src="assets/glyphicons-49-star-empty.png" alt="stars"></p>
+  <h3><strong>Number:</strong></h3> <p>{{ card.card_number }}</p>
+  <h3><strong>Card Set:</strong></h3> <p>{{ card.card_set }}</p>
+  <h3><strong>Rarity:</strong></h3><p>{{ card.rarity }}</p>
+  <button *ngIf="card.save" class="btn btn-primary" (click)="saveCard()">Save</button>
+  <button *ngIf="card.delete" class="btn btn-danger" (click)="deleteCard()">Delete</button>
+</div>

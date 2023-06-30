@@ -1,0 +1,21 @@
+<div class="row" style="padding: 30px;">
+  <button class="btn btn-warning" (click)="loadCards()">Get Cards Remote Server!</button>
+  <button class="btn btn-warning" (click)="getDataBluemix()">Get Data Bluemix!</button>
+</div>
+
+
+<div class="container">
+  <div class="row" *ngIf="savedCard">
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <strong>Well done!</strong> <p>Card Saved: {{ savedCard.name }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4" *ngFor="let card of cards">
+    <app-card [card]="card"
+              (cardSavedEvent)="cardWasSaved($event)"
+              (cardDeletedEvent)="cardWasDeleted($event)"></app-card>    
+  </div>
+</div>

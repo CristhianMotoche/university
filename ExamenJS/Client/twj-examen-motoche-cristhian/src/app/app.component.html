@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <form method="POST">
+      <div class="col-sm-12">
+        <div class="form-group col-sm-6">
+          <label for="nombre">Name:</label>
+          <input class="form-control" type="text" name="nombre" [(ngModel)]="artista.nombre" placeholder="Type name here">
+          <label for="estilo">Estilo:</label>
+          <input class="form-control" type="text" name="estilo" [(ngModel)]="artista.estilo" placeholder="Type style here">
+          <label for="pais_residencia">País Residencia:</label>
+          <input class="form-control" type="text" name="pais_residencia" [(ngModel)]="artista.pais_residencia" placeholder="Type residence here">
+          <button class="btn btn-success" (click)="createArtist()">Create an Artist</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 artista" *ngFor="let artista of artistas">
+      <app-artista [artista]="artista"></app-artista>
+    </div>
+  </div>
+</div>
+
