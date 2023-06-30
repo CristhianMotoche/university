@@ -1,0 +1,17 @@
+/*Classes affect multiple elements*/
+.title {
+  color: red;
+}
+
+/*IDs affect only the first element with the ID*/
+#unique {
+  color: green;
+}
+
+/*
+ * Convention for long names is keebap case
+ */
+
+#contact-me {
+  color: blue;
+}

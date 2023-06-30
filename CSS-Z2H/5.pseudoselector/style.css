@@ -1,0 +1,23 @@
+li:first-child {
+  color: green;
+}
+
+li:nth-child(2) {
+  color: blue;
+}
+
+li:last-child {
+  color: red;
+}
+
+li.only-child:only-child {
+  color: purple;
+}
+
+#google:link {
+  color: red;
+}
+
+#google:visited {
+  color: green;
+}

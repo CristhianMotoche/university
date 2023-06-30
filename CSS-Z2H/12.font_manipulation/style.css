@@ -1,0 +1,21 @@
+/* Text manipulation != Font manipulation
+
+In Font manipulation you can change the way the text looks:
+
+- size
+- weight
+- style
+
+*/
+
+body {
+  font-size: 1.5em;
+}
+
+.lol {
+  font-weight: 800;
+}
+
+.lorem {
+  font-style: italic;
+}

@@ -1,0 +1,20 @@
+/*Any span with the attribute class lol*/
+
+span[class=lol] {
+  color: blue;
+}
+
+/*Any li that starts with my-li*/
+li[class^=my-li] {
+  color: red;
+}
+
+/*
+ * There are other selectors like:
+ *
+ * attr$=value  -> Ends with this value
+ * attr*=value  -> Contains the value anywhere
+ * attr~=value  -> ?
+ * attr|=value  -> ?
+ *
+ */

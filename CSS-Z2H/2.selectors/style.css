@@ -1,0 +1,14 @@
+/*1. Element selector*/
+p {
+  color: red;
+}
+
+/*2. Class selector*/
+.some-class {
+  color: blue;
+}
+
+/*3. ID selector*/
+#unique {
+  color: green;
+}

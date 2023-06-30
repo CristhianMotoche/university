@@ -1,0 +1,20 @@
+/* +: Every element 'a' that follows a 'h2' */
+h2 + a {
+  color: #888;
+}
+
+/* ~: Every element 'span' that follows a 'input' and share the same parent */
+input ~ span {
+  display: none;
+}
+
+/* >: Every element 'li' inside 'ul' */
+ul > li {
+  color: blue;
+}
+
+/* Descendent selector: Any element 'span' inside 'ul' */
+
+ul span {
+  color: brown;
+}

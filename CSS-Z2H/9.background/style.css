@@ -1,0 +1,17 @@
+body {
+  background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjM3Njd9&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-color: steelblue;
+  background-size: cover;
+/*  Other options are:
+ *  widht height:
+ *    background-size: 800px 600px;
+ *
+ *  contain: tries to cover as much WITHOUT STRETCHING the image
+ *    background-size: 800px 600px;
+ *
+ *  cover: tries to cover as much but STRETCHING the image
+ *    background-size: 800px 600px;
+ *
+/**/
+}

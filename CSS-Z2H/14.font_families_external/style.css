@@ -1,0 +1,25 @@
+/* Text manipulation != Font manipulation
+
+In Font manipulation you can change the way the text looks:
+
+- size
+- weight
+- style
+
+*/
+
+.lol {
+  font-family: 'Trade Winds', serif;
+}
+
+.boring {
+  font-family: sans-serif;
+}
+
+.lorem {
+  font-family: "georgia", serif;
+}
+
+.random {
+  font-family: 'Odibee Sans', serif;
+}

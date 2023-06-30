@@ -1,0 +1,30 @@
+/*
+ * Fixed units:
+ *
+ * px
+ * pc
+ * cm
+ * mm
+ * in
+ *
+ */
+.my-li {
+  font-size: 100px;
+}
+
+/*
+ * Relative units::
+ *
+ * vh, vw
+ * em, rem
+ * %
+ *
+ */
+
+.lol {
+  font-size: 10vh;
+}
+
+.not-li {
+  font-size: 10rem;
+}

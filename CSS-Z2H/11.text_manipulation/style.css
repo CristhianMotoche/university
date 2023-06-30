@@ -1,0 +1,30 @@
+/* Text manipulation != Font manipulation
+
+In Text manipulation you can change the way the text looks:
+
+- underlining
+- color
+- tranformation
+- decoration
+
+*/
+
+a {
+  text-decoration: none;
+}
+
+.lol {
+  text-decoration: underline;
+}
+
+.boring {
+  text-decoration: line-through;
+}
+
+.lorem {
+  text-transform: capitalize;
+}
+
+.random {
+  text-align: center;
+}

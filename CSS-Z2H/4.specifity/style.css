@@ -1,0 +1,31 @@
+
+/* Power is losed in the following way:
+ *
+ *
+
+ 1. elements
+ 2. classes
+ 3. ids
+ 4. inline
+
+ * n - 1 has more power than n
+ * ids are more powerful than classes,
+ * classes are more powerful than ids,
+ * etc.
+ *
+ * A better explanation here:
+ * https://stuffandnonsense.co.uk/archives/images/css-specificity-wars.png
+ *
+ */
+
+h2 {
+  color: red;
+}
+
+.sub-title {
+  color: blue;
+}
+
+#green {
+  color: green;
+}

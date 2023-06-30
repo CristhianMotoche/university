@@ -1,0 +1,27 @@
+/* The box model is composed of:
+
+- size: height and witdh
+- border: separates the padding and content from the margin
+- padding:
+- margin:
+
+*/
+
+#paramount {
+  height: 400px;
+  width: 25%;
+}
+
+#rain-stars {
+  border: 10px dotted rgb(10, 123, 200, 0.7);
+}
+
+#tree {
+  border: 10px solid rgb(100, 123, 200, 0.7);
+  padding: 10px 0 10px 0; /* Top, Right, Bottom, Left */
+}
+
+#wings {
+  border: 10px dashed rgb(150, 13, 0, 0.7);
+  margin: 10px 100px; /* Top & Bottom,  Right & Left */
+}
