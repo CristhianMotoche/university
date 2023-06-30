@@ -1,0 +1,48 @@
+<h1>My first application</h1>
+
+<p>Hello!!</p>
+
+<h1>{{ title }} {{ name }}</h1>
+
+<h2>Property binding</h2>
+<h3>1. With curly brackets</h3>
+<p>{{ parrafo }}</p>
+
+<h3>2. With brackets</h3>
+<a [href]="url">
+  <img [src]="url_image" width="100px" alt="Image">
+</a>
+
+<p [innerText]="parrafo" [style.color]="color"></p>
+
+<app-stylo></app-stylo>
+
+<style>
+p {
+  border: 10px;
+  border-style: solid;
+  border-color: #125678;
+}
+p:hover {
+  border-color: white;
+}
+</style>
+
+<button class="btn btn-secondary">asdf</button>
+<div class="col-12">
+  <div class="col-4">
+    <p>This is war!!!</p>
+  </div>
+  <div class="col-4">
+    <p>This is war!!!</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="">
+    <p>This is war!!!</p>
+  </div>
+  <div class="">
+    <p>This is war!!!</p>
+  </div>
+</div>

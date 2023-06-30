@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <form method="POST">
+        <pre>{{ newUser | json }}</pre>
+        <div class="form-group">
+          <label for="inputName">Name</label>
+          <input type="text" name="nombre" [(ngModel)]="newUser.nombre" placeholder="Type here">
+          <button class="btn btn-success" (click)="createUser()">Create a user</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <button class="btn btn-primary" (click)="loadUsers()">Load users</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2" *ngFor="let user of users">
+      <div class="card">
+        <div class="card-title">
+          {{ user.nombre }}
+        </div>
+        <form method="DELETE" accept="http://localhost:8000/usuario">
+          <div class="form-group">
+            <input type="hidden" name="id" [value]="user.id">
+            <button class="btn btn-danger" (click)="deleteUser(user.id)">
+              Eliminar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

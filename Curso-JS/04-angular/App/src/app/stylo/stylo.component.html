@@ -1,0 +1,48 @@
+<!--<input type="text" [value]="value" #labelName placeholder="Insert text">-->
+
+<!--Banana box model [()]-->
+<!--<input type="text" [value]="value" #labelName2 placeholder="Insert text" [(ngModel)]="value">-->
+
+<!--From component to view-->
+<!--<img [src]="value" alt="">-->
+
+<!--Events from view to component-->
+<!--<button (click)="changeInput()">Click here!</button>-->
+
+
+<div class="container">
+  <div class="row" >
+    <div *ngFor="let user of userArray">
+      <div class="col-sm-4" *ngIf="user.conectado">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top img-responsive" [src]="user.image" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">{{ user.nombre }}</h4>
+            <p class="card-text">{{ user.apellido }}</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <p *ngIf="undefined">Hola</p>
+  <p *ngIf="null">En el mar la vida es más sabrosa :P</p>
+  <p *ngIf="0">¡La respuesta es 42!</p>
+  <p *ngIf="1">Ten cuidado con lo que deseas</p>
+  <p *ngIf="{}">porque se te puede cumplir.</p>
+  <p *ngIf="(1+1) === 2">Adios</p>
+</div>
+
+<div class="row">
+  <div *ngFor="let planet of planets">
+    <div class="col-md-3">
+      <h1>
+        {{ planet.name }}
+      </h1>
+    </div>
+  </div>
+  <button class="btn btn-primary" (click)="loadPlanets()">Cargar Planetas</button>
+</div>

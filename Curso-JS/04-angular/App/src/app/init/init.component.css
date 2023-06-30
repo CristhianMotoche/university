@@ -1,0 +1,114 @@
+#announce {
+	background-color: #0275D8;
+}
+
+.whitetext {
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+}
+
+.bs-docs-masthead .bs-docs-booticon {
+	margin: 0 auto 30px;
+}
+.bs-docs-booticon-outline {
+	background-color: transparent;
+	border: 1px solid #cdbfe3;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(205, 191, 227);
+	border-right-color: rgb(205, 191, 227);
+	border-bottom-color: rgb(205, 191, 227);
+	border-left-color: rgb(205, 191, 227);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image-source: none;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-width: 1 1 1 1;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+}
+.bs-docs-booticon-lg {
+	width: 144px;
+	height: 144px;
+	font-size: 108px;
+	line-height: 140px;
+}
+
+.bs-docs-booticon {
+  margin: 0 auto;
+  margin-top: 20px;
+  float:none;
+	display: block;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	cursor: default;
+	background-color: #563d7c;
+	border-radius: 15%;
+}
+
+.bs-docs-masthead .lead {
+	margin: 0 auto 30px;
+	font-size: 20px;
+	color: #fff;
+}
+.lead {
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.bs-docs-featurette + .bs-docs-footer {
+	margin-top: 0;
+	border-top: 0;
+}
+.bs-docs-footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 100px;
+	color: #99979c;
+	text-align: center;
+	background-color: #2a2730;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bs-docs-footer-links li {
+	display: inline-block;
+}
+
+.box {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+	border: 1px solid #cdbfe3;
+	background-color: transparent;
+	border: 1px solid #cdbfe3;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(205, 191, 227);
+	border-right-color: rgb(205, 191, 227);
+	border-bottom-color: rgb(205, 191, 227);
+	border-left-color: rgb(205, 191, 227);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

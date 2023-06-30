@@ -1,0 +1,12 @@
+@font-face {
+  font-family: swfont;
+  src: url(./star-wars-font.woff);
+}
+
+body {
+  text-transform: capitalize;
+  font-family: swfont;
+  background-image: url("stars.png");
+  background-repeat: repeat-y repeat-x;
+}
+

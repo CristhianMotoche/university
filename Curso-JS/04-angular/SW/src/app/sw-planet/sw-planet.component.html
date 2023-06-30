@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="row">
+    <div class="col-sm-6">
+      <img [src]="planet.src" width="100%" [alt]="planet.name">
+      <h4 class="card-title">{{ planet.name }}</h4>
+      <h5 class="card-subtitle"><strong>Rotation Period</strong></h5>
+      <p class="card-text">{{ planet.rotation_period }}</p>
+      <app-sw-population [population]="planet.population"></app-sw-population>
+      <app-sw-terrain [terrains]="planet.terrain"></app-sw-terrain>
+      <app-sw-climate [climates]="planet.climate"></app-sw-climate>
+      <app-sw-films [films]="planet.films"></app-sw-films>
+    </div>
+  </div>
+</div>
