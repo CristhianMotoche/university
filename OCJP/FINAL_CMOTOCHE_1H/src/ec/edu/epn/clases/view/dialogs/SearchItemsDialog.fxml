@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="301.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.epn.clases.controller.dialogs.SearchItemsDialogController">
+    <children>
+      <TableView fx:id="personTable" layoutX="11.0" layoutY="14.0" prefHeight="226.0" prefWidth="539.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0">
+        <columns>
+          <TableColumn fx:id="columnNombre" prefWidth="143.0" text="Nombre" />
+          <TableColumn fx:id="columnEdad" prefWidth="103.0" text="Edad" />
+            <TableColumn fx:id="columnFecha" prefWidth="146.0" text="Fecha de Nac." />
+            <TableColumn fx:id="columnSalario" prefWidth="125.0" text="Salario" />
+            <TableColumn fx:id="columnEmail" prefWidth="101.0" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="23.0" text="Search:" />
+      <TextField fx:id="filterField" layoutX="79.0" layoutY="17.0" onKeyReleased="#handleKeyreleased" promptText="Type here..." />
+   </children>
+</AnchorPane>
